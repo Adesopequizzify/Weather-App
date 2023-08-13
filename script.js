@@ -1,5 +1,5 @@
-const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY';
-const cityNames = ['London', 'New York', 'Los Angeles', 'Tokyo', 'Paris'];
+const apiKey = 'here';
+const cityNames = ['London', 'New York', 'Los Angeles', 'Tokyo', 'Lagos'];
 
 const citySearchInput = document.getElementById('searchInput');
 const searchBtn = document.getElementById('searchBtn');
