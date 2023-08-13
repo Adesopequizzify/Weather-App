@@ -1,4 +1,4 @@
-const apiKey = 'here';
+const apiKey = '';
 const cityNames = ['London', 'New York', 'Los Angeles', 'Tokyo', 'Lagos'];
 
 const citySearchInput = document.getElementById('searchInput');
