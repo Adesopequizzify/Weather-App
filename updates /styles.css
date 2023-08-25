@@ -1,0 +1,110 @@
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.weather-card {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2),
+              -8px -8px 16px rgba(255, 255, 255, 0.4);
+}
+
+.weather-icon {
+  font-size: 64px;
+  color: #f39c12;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.temperature {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.weather-description {
+  font-size: 18px;
+  color: #888;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#searchInput {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: inset 6px 6px 12px #c1c1c1,
+              inset -6px -6px 12px #ffffff;
+}
+
+#searchBtn {
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  color: #3498db;
+  transition: color 0.3s ease;
+}
+
+#searchBtn:hover {
+  color: #2980b9;
+}
+
+.forecast {
+  margin-top: 20px;
+}
+
+.forecast-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.forecast-days {
+  display: flex;
+  overflow-x: auto;
+}
+
+.forecast-day {
+  flex: 0 0 100px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.forecast-icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.forecast-temp {
+  font-size: 16px;
+}
+
+/* Add media query for responsive design */
+@media (max-width: 768px) {
+  .forecast-day {
+    flex: 0 0 80px;
+  }
+}
